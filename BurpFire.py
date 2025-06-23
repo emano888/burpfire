@@ -132,10 +132,7 @@ class BurpExtender(IBurpExtender, ITab, IExtensionStateListener):
                 self._callbacks.printOutput(u"URLs pasted into text field.")
         except Exception as e:
             self._callbacks.printError(u"Error pasting from clipboard: {}".format(unicode(e)))
-
-    def extensionUnloaded(self):
-        self._callbacks.printOutput(u"Finishing BurpFire...")
-        self.executor.shutdownNow()
+            
         try:
             if not self.executor.awaitTermination(5, TimeUnit.SECONDS):
                 self._callbacks.printError(u"Some tasks may not have completed correctly.")
