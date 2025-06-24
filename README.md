@@ -26,7 +26,7 @@ The image displays the user interface of the **BurpFire** tab within Burp Suite,
 - Sample URLs shown in the notepad, such as:
 
 
-The interface is simple and focused, allowing quick dispatch of HTTP requests through Burp's proxy for inspection and analysis.
+The interface is simple and focused, allowing quick dispatch of HTTP requests through Burp's Logger for inspection and analysis.
 
 ## 📦 Installation
 
