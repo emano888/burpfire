@@ -10,10 +10,10 @@ for each request.
 -   Paste or type a list of URLs (one per line).
 -   Send multiple requests concurrently (thread pool of 10 workers).
 -   **Results table** with the following columns:
-    -   **URL**\
-    -   **Status** (HTTP status code or error)\
-    -   **Length** (response size in bytes)\
-    -   **Time** (request duration in ms or seconds)\
+    -   **URL**
+    -   **Status** (HTTP status code or error)
+    -   **Length** (response size in bytes)
+    -   **Time** (request duration in ms or seconds)
 -   Real-time status updates showing request progress
     (`Completed X/Y requests`).
 -   Right-click context menu in the input area → **Paste URLs**.
@@ -50,8 +50,8 @@ The interface includes:
 1.  Make sure **Jython** is installed and configured in Burp Suite.
 2.  Open `Extender → Extensions → Add`.
 3.  Select:
-    -   **Extension type**: Python\
-    -   File: `http-batch-tool.py`\
+    -   **Extension type**: Python
+    -   File: `http-batch-tool.py`
 4.  The tab **HTTP Batch Tool** will appear inside Burp.
 
 ## 📄 License
