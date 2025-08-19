@@ -1,6 +1,6 @@
-# 📝 BurpFire (HTTP Batch Tool) for Burp Suite
+# 📝 HTTP Batch Tool for Burp Suite
 
-BurpFire is a simple Burp Suite extension that adds a custom tab where you can paste a list of URLs and send HTTP requests through Burp’s proxy with a single click.
+HTTP Batch Tool is a simple Burp Suite extension that adds a custom tab where you can paste a list of URLs and send HTTP requests through Burp’s proxy with a single click.
 
 ## 🔧 Features
 
@@ -18,7 +18,7 @@ BurpFire is a simple Burp Suite extension that adds a custom tab where you can p
 
 ![BurpFire Preview](preview.png)
 
-The image displays the user interface of the **BurpFire** tab within Burp Suite, featuring:
+The image displays the user interface of the **HTTP Batch Tool** tab within Burp Suite, featuring:
 
 - A **large text area** where users can paste or type multiple URLs (one per line).
 - A **"Send Requests"** button at the bottom to trigger HTTP requests.
