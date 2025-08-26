@@ -36,7 +36,7 @@ for each request.
 
 ## 📸 Preview
 
-![BurpFire Preview](preview.png)
+![BurpFire Preview](preview2.png)
 
 The interface includes:
 
